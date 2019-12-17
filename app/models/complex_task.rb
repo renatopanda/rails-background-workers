@@ -1,0 +1,2 @@
+class ComplexTask < ApplicationRecord
+end

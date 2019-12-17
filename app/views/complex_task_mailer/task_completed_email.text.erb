@@ -1,0 +1,9 @@
+Task completed: <%= @task.title %>
+===============================================
+ 
+Your task with title <%= @task.title %> has
+completed successfully!
+
+Result of the task is: <%= @task.result %>.
+
+You can check it at <%= complex_task_url(@task, host: 'example.com') %>.

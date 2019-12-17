@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Task completed: <%= @task.title %></h1>
+    <p>
+      Your task with title <%= @task.title %> has completed successfully!
+      <br>
+      Result of the task is: <%= @task.result %>.
+    </p>
+    <p>
+      You can check it at <%= complex_task_url(@task, host: 'example.com') %>.
+    </p>
+  </body>
+</html>

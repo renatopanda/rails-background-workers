@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @complex_task.title %>
+</p>
+
+<p>
+  <strong>Result:</strong>
+  <%= @complex_task.result %>
+</p>
+
+<%= link_to 'Edit', edit_complex_task_path(@complex_task) %> |
+<%= link_to 'Back', complex_tasks_path %>
